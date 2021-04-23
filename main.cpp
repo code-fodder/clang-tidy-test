@@ -10,7 +10,7 @@ int main()
     }
 
     int ar[1] = {1};
-    ar[11] = 1;
+    ar[2] = 1;
     std::cout << "value is: " << std::to_string(ar[0]) << std::endl;
 
     std::cout << "value is: " << std::to_string(silly_function()) << std::endl;

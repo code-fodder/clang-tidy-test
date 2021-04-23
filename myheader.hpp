@@ -27,14 +27,14 @@ struct bob
 
 inline int silly_function()
 {
-    int test;
+    int test {0};
 
     return test + 1;
 }
 
 int silly_function2()
 {
-    int test;
+    int test {0};
 
     return test + 1;
 }
